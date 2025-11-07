@@ -1,9 +1,9 @@
 import tkinter as tk
 from PIL import Image, ImageTk
 import random
-import string
+from string import ascii_uppercase
 
-ALPH = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+ALPH = ascii_uppercase
 WIDTH = 1000
 HEIGHT = 700
 

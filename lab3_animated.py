@@ -2,8 +2,9 @@ import tkinter as tk
 from PIL import Image, ImageTk
 import random
 from pygame import mixer
+from string import ascii_uppercase
 
-ALPH = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+ALPH = ascii_uppercase
 WIDTH = 1000
 HEIGHT = 700
 BG_FILE = "undefined.jpg"
